@@ -1,0 +1,26 @@
+{
+    "appDesc": {
+        "message": "Filters for vk.com/audio",
+        "description": ""
+    },
+    "show_mp3": {
+        "message": "Show mp3 links",
+        "description": ""
+    },
+    "enable_exact": {
+        "message": "Enable exact search",
+        "description": ""
+    },
+    "save": {
+        "message": "Save",
+        "description": ""
+    },
+    "oh_my_audio_filters_options": {
+        "message": "Oh My Audio Filters",
+        "description": ""
+    },
+    "saved": {
+        "message": "Options saved.",
+        "description": ""
+    }
+}
