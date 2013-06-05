@@ -88,7 +88,8 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACwAAAAAEAAQ\
 AAAEJzAAQaulQN5dJ/9bIAZgCY6kiZboyrXj2aqxKYh2fs\
 O14NmZHygTAQA7";
 
-                if (window.location.pathname == "/audio")
+                // for /audio*
+                if (window.location.pathname.search("/audio") == 0)
                     div.find(".info").css("width", "375px");
 
                 div.find(".title_wrap b").css("padding-left", "10px");
