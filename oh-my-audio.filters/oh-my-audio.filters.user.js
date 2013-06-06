@@ -94,10 +94,13 @@ O14NmZHygTAQA7";
 
                 div.find(".title_wrap b").css("padding-left", "10px");
 
+                var track = info.artist + " - " + info.title;
+
                 var a = $("<a>", {
+                    click: function() { event.cancelBubble=true; },
                     href: info.mp3,
-                    target: "_blank",
-                    title: info.artist + " - " + info.title,
+                    download: track + ".mp3",
+                    title: track,
                     class: "play_btn_wrap fl_l oh-my-audio-mp3",
                     style: "padding-left: 0px; padding-right: 0px;",
                 });
