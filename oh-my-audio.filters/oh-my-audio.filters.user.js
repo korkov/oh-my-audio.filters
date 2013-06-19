@@ -90,7 +90,7 @@ O14NmZHygTAQA7";
 
                 // for /audio*
                 if (window.location.pathname.search("/audio") == 0)
-                    div.find(".info").css("width", "375px");
+                    div.find(".info").css("width", "370px");
 
                 div.find(".title_wrap b").css("padding-left", "10px");
 
